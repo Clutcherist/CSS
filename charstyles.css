@@ -1,0 +1,254 @@
+
+/*TAG SELECTOR*/
+
+body{
+	background-color: black;
+
+	margin: 0;
+}
+
+div:hover {
+  width: 2000px;
+}
+
+input[type=text], select {
+  width: 110%;
+  display: inline-block;
+
+  padding: 12px 20px;
+
+  margin: 8px 0;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=tel], select {
+  width: 110%;
+  display: inline-block;
+
+  padding: 12px 20px;
+
+  margin: 8px 0;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 110%;
+  display: inline-block;
+
+  padding: 12px 20px;
+
+  margin: 8px 0;
+  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 220%;
+  background-color: #bbb;
+  color: white;
+  cursor: pointer;
+
+  padding: 12px 20px;
+
+  margin: 8px 0;
+
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=submit]:hover {
+  background-color: #e9d700;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #000;
+
+  margin: 0;
+
+  padding: 0;  
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+
+  padding: 14px 16px;
+}
+
+li a:hover:not(.active) {
+  background-color: #777777;
+}
+
+div {
+  width: 200px;
+  height: 100px;
+  background: #e9d700;
+  transition: width 2s;
+}
+
+
+/*CLASS SELECTOR*/
+
+.char{
+	font-family: Bahnschrift Condensed;
+	color: #e9d700;
+	text-align: center;
+	font-size: 4em;
+}
+
+.box{
+	background-color: #e9d700;
+	width: 1850px;
+
+	border-style: solid;
+	border-color: gray;
+	border-width: 5px;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+
+	font-size: 4em;
+	font-family: Bahnschrift Condensed;
+	text-align: center;
+	color: black;
+
+  margin: 20px;
+
+}
+
+.par{
+	color: #f6f6f6;
+
+	font-family: Bahnschrift Condensed;
+	font-size: 2em;
+
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.charhover{
+	transition: 1.5s;
+}
+
+.charhover:hover{
+	float: center;
+	transform: scale(1.2);
+	
+}
+
+.top {
+  position: fixed;
+  bottom: 10px; 
+  right: 10px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+        
+  border-radius: 10px; 
+
+  width: 100px;
+  height: 50px;
+}
+
+.storeinput{
+  font-family: Bahnschrift Condensed;
+  font-size: 2em;
+  color: white;
+}
+
+.storechar{
+  font-family: Bahnschrift Condensed;
+  font-size: 2em;
+  color: #e9d700;
+}
+
+.fill{
+  font-family: Bahnschrift Condensed;
+  font-size: 2em;
+  color: #e9d700;
+  text-align: center;
+}
+
+.parab{
+  color: white;
+  text-align: justify;
+  text-justify: inter-word;
+
+  font-family: Bahnschrift Condensed;
+  font-size: 2em;
+
+  padding: 40px;
+}
+
+.boxab{
+  background-color: black;
+  width: 1850px;
+
+  border-style: solid;
+  border-color: gray;
+  border-width: 5px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+
+  font-size: 2em;
+  font-family: Bahnschrift Condensed;
+  text-align: center;
+  color: white;
+
+  margin: 20px;
+}
+
+
+
+
+.active {
+  background-color: gray;
+}
+
+.navfont{
+  font-family: Bahnschrift Condensed;
+}
+
+
+
+
+.logo{
+  height: 100px;
+  width: 150px;
+
+  border-color: black;
+  border-style: none;
+}
+
+
+
+.cod{
+  color: black;
+  font-family: Bahnschrift Condensed;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+
+
+

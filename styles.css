@@ -1,0 +1,141 @@
+
+/*TAG SELECTOR*/
+
+body{
+background-color: #000000;
+
+margin: 0;
+}
+
+img{
+  height: 200px;
+  width: 400px;
+
+  border-style: inset;
+  border-color: #eee;
+
+  transition: 1.5s;
+}
+
+div {
+  width: 200px;
+  height: 100px;
+  background: #e9d700;
+  transition: width 2s;
+}
+
+div:hover {
+  width: 2000px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #777777;
+}
+
+/*CLASS SELECTOR*/
+.p1{
+	color: #e9d700;
+	font-family: Bahnschrift Condensed;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.p2{
+	color: #f6f6f6;
+	font-family: Bahnschrift Condensed;
+	font-size: 2.0em;	
+	text-align: center;
+}
+
+.img1{
+	height: 450px;
+	width: 700px;
+
+	border-radius: 10px;
+  border-style: inset;
+  border-color: grey;
+  border-width: 5px;
+}
+
+.logo{
+  height: 100px;
+  width: 150px;
+
+  border-color: black;
+  border-style: none;
+}
+
+.charimg{
+  height: 700px; 
+  width: 375px;
+
+  border-style: none;
+}
+
+.charimg:hover{
+  transform: scale(1.2);
+
+}
+
+.hover img:hover{
+  float: center;
+  transform: scale(1.2);
+
+}
+
+.cod{
+  color: black;
+  font-family: Bahnschrift Condensed;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.active {
+  background-color: gray;
+}
+
+.navfont{
+  font-family: Bahnschrift Condensed;
+}
+
+.top {
+  position: fixed;
+  bottom: 10px; 
+  right: 10px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+        
+  border-radius: 10px; 
+
+  width: 100px;
+  height: 50px;
+}
+
+
+
